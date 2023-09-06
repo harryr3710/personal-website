@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.main-profile-card{
+    height: 400px;
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+    gap: 90px;
+}
+
+.profile-pic{
+    display: inline-block;
+    margin-top: 50px;
+    margin-right: 50px
+}
+
+.avatar{
+    border-radius: 50%;
+    border: 5px solid #393939;
+
+}
+
+.name{
+    text-align: center;
+}
+
+.profile-info{
+    display: flex;
+    display: inline-block;
+    margin-top: 70px;
+    justify-content: center;
+}
+
+.profile-socials, .profile-buttons{
+    display: flex;
+    justify-content: center;
+}
+
+.profile-buttons{
+    margin: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.download{
+    background-color: white;
+    border-radius: 30px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.contact{
+    background-color: rgb(54, 54, 54);
+    color: white;
+    border-radius: 30px;
+    padding: 10px;
+    border-color: black;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.contact:hover{
+    background-image: linear-gradient(to bottom, #000000, #014776); 
+    color: #fff; 
+}
+
+.linkedin{
+    margin-right: 20px;
+}
+
+.download{
+    margin-right: 20px;
+}
+
+  
